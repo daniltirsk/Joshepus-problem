@@ -38,18 +38,8 @@ int main(void)
  setlocale(LC_ALL, "Russian");
  LineList<int> list;
  int n,k;
- cout<<list<<endl;
- list.insertFirst(33);
- list.insertAfter(list.getStart(),22);
- cout<<list<<endl;
- list.deleteFirst();
- cout<<list<<endl;
- list.deleteFirst();
- cout<<list<<endl;
- list.insertFirst(44);
-  cout<<list<<endl;
 
- /*while(true){
+ while(true){
      cout<<"Enter the number of people and k: ";
      cin>>n>>k;
 
@@ -62,6 +52,6 @@ int main(void)
      cout<<"josephus3: "<<josephus3(n)<<endl;
      cout<<endl<<endl;
      list.deleteFirst();
- }*/
+ }
  return 0;
 }
